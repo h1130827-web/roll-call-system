@@ -1,0 +1,7 @@
+echo "# roll-call-systen" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/h1130827-web/roll-call-systen.git
+git push -u origin main
